@@ -1,0 +1,32 @@
+{
+  "name": "ecchatserver",
+  "version": "0.5.0",
+  "description": "Chat Server",
+  "main": "chatserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sherwin Terunez sherwinterunez@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.17.1",
+    "facebook-chat-api": "git+https://github.com/Schmavery/facebook-chat-api.git",
+    "jest-worker": "^24.9.0",
+    "moment": "^2.24.0",
+    "nconf": "^0.10.0",
+    "node-jsencrypt": "^1.0.0",
+    "numeral": "^2.0.6",
+    "pg": "^7.12.1",
+    "puppeteer": "^4.0.0",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "sha1": "^1.1.1",
+    "sharp": "^0.23.2",
+    "uuid4": "^1.1.4",
+    "viber-bot": "^1.0.14",
+    "websocket": "^1.0.30"
+  }
+}
